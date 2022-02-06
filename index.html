@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="HARUKA FUKUMUROのポートフォリオサイトです" />
+  <title>HARUKA FUKUMURO ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css\style.css" rel="stylesheet" type="text/css">
+  <link href="css\ress.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.ico" />
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">HARUKA FUKUMURO</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div id="container1">
+        <div class="mv">
+          <div class="mv-container">
+            <p class="mv-title">HARUKA FUKUMURO</p>
+            <p class="mv-subtitle">PORTFOLIO</p>
+            <div id="video-area">
+              <video id="video"  muted autoplay loop>
+                <source src="img/video2.mp4">
+              </video>
+              <!--/video-area-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <p class="lead">クリックすると詳細ページに行きます</p>
+          <div class="works-list">
+            <a class="works-item" href="work1.html">
+              <img src="img/p5js_1.png">
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">p5.js</p>
+            </a>
+            <a class="works-item" href="work2.html">
+              <img src="img/p5js_2.png">
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">p5.js</p>
+            </a>
+            <a class="works-item" href="work3.html">
+              <img src="img/p5js_3.png">
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">p5.js</p>
+            </a>
+          </div>
+          <br>
+            <a class="works-item" href="work4.html">
+              <img src="img/p5js_4.png">
+              <p class="works-name">コメント機能付きマップサイト</p>
+              <p class="works-info">Django OSMを使用</p>
+            </a>
+            <a class="works-item" href="work6.html">
+              <img src="img/p5js_5.png">
+              <p class="works-name">シューティングゲーム</p>
+              <p class="works-info">javascript</p>
+            </a>
+          </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill-section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/html5.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">HTML5</h3>
+                <p class="skill-text">
+                  HTMLを用いたサイト作成ができる</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/css3.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">CSS3</h3>
+                <p class="skill-text">
+                  CSSを用いたサイト作成ができる</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/python.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Python</h3>
+                <p class="skill-text">
+                  大学では主にPythonを勉強しています。Djangoを使用したwebサービスの作成など</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/javascript_1.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                  webサイトを動的にできる。大学の授業でREST APIを使用しました。p5.jsの勉強中</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/ruby.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Ruby/Ruby on rails</h3>
+                <p class="skill-text">
+                  一般教養レベルのRubyの知識とRuby on railsを用いたWebアプリの作成の経験あり</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <p class="skill-img"><img src="img/swift.png" alt=""></p>
+              <div class="skill-body">
+                <h3 class="skill-name">Swift</h3>
+                <p class="skill-text">
+                  中学の頃に趣味で使用。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                <br>2002年、神奈川出身
+                <br>東洋大学 情報連携学部 情報連携学科 1年
+              </p>
+              <p>
+                <br>桐蔭学園高等学校 卒業
+                <br>東洋大学 情報連携学部 情報連携学科 入学
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            ご連絡ありましたら、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <span class="contact-item">harukamai0723[at]gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;HARUKA FUKUMURO</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
