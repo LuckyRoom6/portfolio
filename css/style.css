@@ -331,7 +331,7 @@ img {
 }
 
 .contact-section {
-  
+  background-color: #fff;
 }
 
 /*--------------------------------
@@ -590,3 +590,8 @@ img {
 *:focus{
   outline:none;
 }
+
+.contact-list {
+  text-align: center;
+}
+
