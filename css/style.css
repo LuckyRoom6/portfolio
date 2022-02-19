@@ -305,6 +305,7 @@ img {
 }
 .profile-body {
   flex: 1;
+  text-align: center;
 }
 
 .profile-body p {
