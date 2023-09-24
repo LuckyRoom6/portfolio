@@ -310,8 +310,8 @@ img {
 .profile-body {
   flex: 1;
   text-align: left;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 200;
 }
 
 .profile-body p {
@@ -341,6 +341,10 @@ img {
 .contact-section {
   background-color: #fff;
   padding: 30px 0;
+}
+
+.career {
+  background-color: #e6e6e6;
 }
 
 /*--------------------------------
