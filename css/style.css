@@ -314,13 +314,36 @@ img {
   font-weight: 200;
 }
 
-.profile-body p {
+.profile-name {
   font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.profile-body p {
+  font-size: 12px;
   line-height: 1.8;
 }
 
 .profile-body p:not(:last-child) {
   margin-bottom: 5px;
+}
+
+
+/*--------------------------------
+ Career
+---------------------------------*/
+
+.career {
+  background-color: #e6e6e6;
+}
+
+.career-body {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 /*--------------------------------
@@ -343,9 +366,6 @@ img {
   padding: 30px 0;
 }
 
-.career {
-  background-color: #e6e6e6;
-}
 
 /*--------------------------------
  ページトップ
