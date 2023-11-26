@@ -583,13 +583,30 @@ iframe {
   }
 
   .works-list {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+  }
+
+  .works-list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+  }
+
+  .works-item,
+  .works-item2,
+  .works-item3 {
+    width: 100%;
+    margin: 30px 50px;
   }
 
   .works-item {
-    flex: 0 0 48%;
     margin-right: 0;
-    margin-bottom: 30px;
   }
 
   /* Skill */
